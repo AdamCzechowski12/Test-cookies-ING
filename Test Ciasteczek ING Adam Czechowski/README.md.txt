@@ -15,6 +15,11 @@ Automatyczny test E2E wykonany przy użyciu [Playwright](https://playwright.dev/
 4. Wybierz plik: Test_Cookies_ING_Adam_Czechowski i kliknij "Otwórz"
 5. W nowo otwartym pliku kliknij "Run" a następnie "Run Module"
 
+Jeżeli użytkownik posiada tylko Python:
+pip install playwright
+python -m playwright install
+python .\Test_Cookies_ING_Adam_Czechowski.py
+
 # Funkcjonalność
 
 - Otwiera stronę ING.pl
